@@ -18,6 +18,10 @@ public enum TestSuite {
         this.clazz = clazz;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public Class getTestSuiteClass() {
         return clazz;
     }
